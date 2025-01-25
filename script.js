@@ -60,7 +60,7 @@ lapBtn.addEventListener("click", () => {
             <i class="fa-solid fa-trash"></i>
         </div>`;
   div.innerHTML = innerDivHtml;
-  lapContainer.append(div);
+  lapContainer.prepend(div);
 });
 
 lapContainer.addEventListener("click", (e) => {
